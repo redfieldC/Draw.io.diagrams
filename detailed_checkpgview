@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T09:54:29.235Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="21.0.4" etag="Os_BfUYBU6SmNM1UZkpK" type="github"><diagram name="Page-1" id="IRFy0_ELQ3HBplenzKin">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-09T11:27:04.876Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_eNQxEu4Tjyb-pophW5H" version="21.0.4" type="github">
+  <diagram name="Page-1" id="IRFy0_ELQ3HBplenzKin">
+    <mxGraphModel dx="808" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x25a9rFF_6CXV2q4kz5r-1" value="&lt;u&gt;&lt;b&gt;&lt;i&gt;CheckPGView&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;/u&gt;gets a specific proposal&lt;br&gt;based on the id,deletes it&#39;s caches,&lt;br&gt;and saves the updated forms" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x25a9rFF_6CXV2q4kz5r-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x25a9rFF_6CXV2q4kz5r-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="220" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x25a9rFF_6CXV2q4kz5r-3" value="&lt;u style=&quot;font-weight: bold; font-style: italic;&quot;&gt;def populate(self,request)&lt;/u&gt;&lt;br&gt;saves the form ProposalSaveView&lt;br&gt;&amp;nbsp;and updates the data&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="280" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
