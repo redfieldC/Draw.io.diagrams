@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T10:22:31.521Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="21.0.4" etag="ARMA22VoN4384PHLMKBu" type="github"><diagram name="Page-1" id="8wgRPI2qNVS8lSFhdTeu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-09T10:35:49.058Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Uz7GrlrwRyObrGZlXOBv" version="21.0.4" type="github">
+  <diagram name="Page-1" id="8wgRPI2qNVS8lSFhdTeu">
+    <mxGraphModel dx="808" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-1" value="ProposalProcessView" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K1qwXypX5YwrlyXbWB4m-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="200" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-3" value="&lt;b style=&quot;text-decoration-line: underline;&quot;&gt;pre_payment_utils&lt;/b&gt;&lt;br&gt;this function returns whether&amp;nbsp;&lt;br&gt;the url redirects or not, the redirect url itself,&lt;br&gt;the name of templae, and the data to render to template" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K1qwXypX5YwrlyXbWB4m-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="200" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-7" value="if redirect url exists" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K1qwXypX5YwrlyXbWB4m-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="570" as="sourcePoint" />
+            <mxPoint x="380" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-9" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="415" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-10" value="we are redirected to&lt;br&gt;the redirect url" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1qwXypX5YwrlyXbWB4m-7" target="K1qwXypX5YwrlyXbWB4m-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="560" as="sourcePoint" />
+            <mxPoint x="200" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-12" value="we make a dictionary which stores the data , True(in case if redirect url is present),data to be rendered,redirect url itself&lt;br&gt;and the proposal_id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="570" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="K1qwXypX5YwrlyXbWB4m-13" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="525" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
