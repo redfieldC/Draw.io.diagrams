@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T05:11:55.182Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="21.0.6" etag="yF7_IbYzpMVeOAd9yGrb" type="github"><diagram name="Page-1" id="XvIa45HJNEei16wGkZM6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-04T05:30:39.178Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ifKHWCt0p5QNJbT1maOm" version="21.0.6" type="github">
+  <diagram name="Page-1" id="XvIa45HJNEei16wGkZM6">
+    <mxGraphModel dx="808" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YsucVsIeHG13mqXu_B8P-1" value="rto/" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsucVsIeHG13mqXu_B8P-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YsucVsIeHG13mqXu_B8P-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="260" as="sourcePoint" />
+            <mxPoint x="190" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsucVsIeHG13mqXu_B8P-3" value="def rto_master_list" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsucVsIeHG13mqXu_B8P-4" value="this response returns a JsonResponse which consists of a map that consists of a map that that has RTOs retreived from cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YsucVsIeHG13mqXu_B8P-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YsucVsIeHG13mqXu_B8P-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="330" as="sourcePoint" />
+            <mxPoint x="190" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsucVsIeHG13mqXu_B8P-6" value="def get_cached_master_rtos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YsucVsIeHG13mqXu_B8P-7" value="This function returns a list of tuples consisting of RTOs with it&#39;s id,cide and name arranged in ascending order WRT rto_code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsucVsIeHG13mqXu_B8P-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsucVsIeHG13mqXu_B8P-4" target="YsucVsIeHG13mqXu_B8P-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="310" as="sourcePoint" />
+            <mxPoint x="370" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsucVsIeHG13mqXu_B8P-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsucVsIeHG13mqXu_B8P-7" target="YsucVsIeHG13mqXu_B8P-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="310" as="sourcePoint" />
+            <mxPoint x="370" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
