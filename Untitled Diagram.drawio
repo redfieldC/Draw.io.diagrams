@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T05:05:19.016Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="21.0.6" etag="EQTTxoe8gmr_jMN5YDcs" type="github"><diagram name="Page-1" id="iXIaomn1z9eChYtvMw4t">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-04T05:08:56.956Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="nGfQ3GzGMlxMoixrPQN0" version="21.0.6" type="github">
+  <diagram name="Page-1" id="iXIaomn1z9eChYtvMw4t">
+    <mxGraphModel dx="808" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bsCpoM7UGIr3AWz20NRb-1" value="vehicle-make/" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCpoM7UGIr3AWz20NRb-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bsCpoM7UGIr3AWz20NRb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="180" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsCpoM7UGIr3AWz20NRb-3" value="def available_make_list" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCpoM7UGIr3AWz20NRb-4" value="here we assign whther the vehicle is popular for 4 wheelers,2 wheelers or for GCV. Then we make a tuple which consists of vehicles that are&lt;br&gt;1) active&lt;br&gt;2)that has a vehcile master&lt;br&gt;3)consists of values of only it&#39;s&amp;nbsp; &quot;id&quot;,&quot;name&quot;,and is_popular values&lt;br&gt;4)every value in tuple would be distinct/unique&lt;br&gt;5)We then return a JsonResponse which consists of a list that has vehicles with values of id,name ,is_popular" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bsCpoM7UGIr3AWz20NRb-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsCpoM7UGIr3AWz20NRb-4" target="bsCpoM7UGIr3AWz20NRb-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
