@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T05:31:32.873Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="21.0.6" etag="WvDC2FmhWejl2H60YFaX" type="github"><diagram name="Page-1" id="eUn2qCTd4dLujnIOYY2K">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-04T06:33:53.365Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="l3o67eOi_6vLzRH17K9I" version="21.0.6" type="github">
+  <diagram name="Page-1" id="eUn2qCTd4dLujnIOYY2K">
+    <mxGraphModel dx="808" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YTJc97QkHh79FuxNHNmS-1" value="make/&amp;lt;int:make_id&amp;gt;/" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YTJc97QkHh79FuxNHNmS-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTJc97QkHh79FuxNHNmS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="250" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTJc97QkHh79FuxNHNmS-3" value="def variants_for_make()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YTJc97QkHh79FuxNHNmS-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTJc97QkHh79FuxNHNmS-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="250" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTJc97QkHh79FuxNHNmS-5" value="def get_code_make_variants" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YTJc97QkHh79FuxNHNmS-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTJc97QkHh79FuxNHNmS-3" target="YTJc97QkHh79FuxNHNmS-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="220" as="sourcePoint" />
+            <mxPoint x="330" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTJc97QkHh79FuxNHNmS-7" value="gets vehicle category sales channel ,cheches of vehicle master, on basisis of type,id,category and sales channel and returns it as jsonresponse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YTJc97QkHh79FuxNHNmS-8" value="what I didnt understand&lt;br&gt;&lt;br&gt;&lt;br&gt;def get_vehicle_category()" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="180" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
